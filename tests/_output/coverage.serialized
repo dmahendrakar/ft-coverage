@@ -1,0 +1,45 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/Users/dmahendrakar/sites/wordpress/wp-content/plugins/ft-coverage/FtCoverage.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/Users/dmahendrakar/sites/wordpress/wp-content/plugins/ft-coverage/FtCoverage.php' => true,
+));
+
+return $coverage;
